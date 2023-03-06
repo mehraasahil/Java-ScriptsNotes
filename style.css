@@ -1,0 +1,10 @@
+.black{
+
+    color: white;
+    background-color: black;
+}
+
+.white{
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+}
