@@ -33,6 +33,67 @@
 // percentage(total)
 
 
+// 4 .Funnctions for Basic events
+// function hello(){
+//     document.write('hello')
+// }
+
+// function hmouse(){
+//     alert('onmouseenter event')
+// }
+
+
+// 5. loop
+
+// while loop 
+// var a= 1;
+// while (a <= 10){
+//     document.write('hello this while loop')
+//     a = a + 1;
+// }
+
+
+//For loop 
+
+// for (var a = 1 ; a <= 10 ; a++){
+//     document.write( a +" " +'this is for forloop <br>')
+// }
+
+
+
+// for (var b = 1; b <= 10; b++ ){
+//     document.write( b +" "+'this is just practice<br>')
+// }
+
+
+// if else with for loop
+// loop for odd
+//  for (var a = 1 ; a<=10; a++){
+//     if (a%2==0){
+//     document.write(a + " " +"This is even <br>" )
+    
+//     }
+//  }
+
+
+// loop for odd
+//  for (var a = 1 ; a<=10; a++){
+//     if (a%2!=0){
+//     document.write(a + " " +"This is even <br>" )
+    
+//     }
+//  }
+
+
+ // Nested Loop
+//  for (var a =1; a<=100; a= a +10){
+//     for (var b = a; b<a+10; b++){
+//         document.write(b+" " +'')
+//     }
+//     document.write('<br>')
+//  }
+
+
 
 
 
