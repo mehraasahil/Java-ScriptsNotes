@@ -93,6 +93,27 @@
 //     document.write('<br>')
 //  }
 
+// Nested loop easy example
+// for (var a = 1; a<=10; a++){
+//     for (var b =1 ; b<=a;b++){
+//         document.write(b)
+//     }
+//     document.write('</br>')
+// }
+
+
+// ARRAY
+
+// single line array with loop
+// var ary = [
+//     ['sahil','Mehra',24],   // 0
+//     ['aashima','gupta',23],  // 1
+// ]
+
+// for( var a = 0;a<2;a++){
+    
+//     document.write(ary[a]);
+// }
 
 // loop for array
 // var ary = [10,20,30,40,50]
