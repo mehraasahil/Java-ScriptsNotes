@@ -94,6 +94,45 @@
 //  }
 
 
+// loop for array
+// var ary = [10,20,30,40,50]
+// sum = 0
+// for (a=0;a<=4;a++){
+//     document.write(ary[a]+"<br>")
+//     sum = sum + ary[a]
+   
+// }
+
+// document.write(sum)
+
+// Loop for store new variable
+// var ary = new Array();
+// ary[0]='ddccd'
+// for (a=0;a<=4;a++){
+//     document.write(ary[a]+"<br>")
+//     sum = sum + ary[a]
+   
+// }
+
+// document.write(sum)
+
+
+
+// Loop for prompt
+// var ary = new Array();
+// for (var g = 0; g<=3; g++){
+//     ary[g]=prompt('enter the val')
+// }
+
+// for (a=1;a<=3;a++){
+//     document.write(ary[a]+"<br>")
+   
+   
+// }
+
+
+
+
 
 
 
