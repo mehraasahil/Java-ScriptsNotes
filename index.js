@@ -141,17 +141,60 @@
 
 // Loop for prompt
 // var ary = new Array();
-// for (var g = 0; g<=3; g++){
+// for (var g = 0; g<3; g++){
 //     ary[g]=prompt('enter the val')
 // }
 
-// for (a=1;a<=3;a++){
+// for (a=0;a<3;a++){
 //     document.write(ary[a]+"<br>")
+// }
    
-   
+// array  methods sort
+
+// var a = [ 'sahil','mehra','fzr']
+// a.sort()
+// document.write(a)
+
+
+// oject emample with this 
+// var a = {
+//    fname : 'sahil',
+//    country: 'india',
+//    state:'punjab',
+//    age:'24',
+//    salary:function(){
+//     return 30000;
+//    },
+//    data: function(){
+//     return this.fname
+//    }
+// }
+// document.write(a.salary())
+// document.write(a.fname)
+// document.write(a.data())
+
+// Map function
+
+// var ary = [11,4,5,8];
+
+// var b  = ary.map(test);
+// document.write(b);
+
+// function test(x){
+//     return x * 10 
 // }
 
+// Map With multiple object
+// var ary = [
+//     {fname:'sahil',lname:'mehra'},
+//     {fname:'Asshima',lname:'gupta'}
+// ]
+// var b  = ary.map(test);
+// document.write(b);
 
+// function test(x){
+//     return x.fname
+// }
 
 
 
