@@ -217,3 +217,23 @@
 // console.log(out)
 
 
+// DOM TOPICS
+
+// document.getElementById('header').onclick=abc;
+
+// function abc(){
+//   document.getElementById('header').style.background = 'green';
+
+// }
+// document.getElementByClassName('header').onclick=abc;
+
+// function abc(){
+//     document.getElementByClassName('header').style.background='green';
+// }
+
+
+// document.getElementById('header').addEventListener('click',abc)
+// function abc(){
+//    document.getElementById('header').style.background = 'green';
+    
+//  }
