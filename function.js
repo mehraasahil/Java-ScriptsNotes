@@ -1,16 +1,16 @@
 // on click example
-// var body = document.getElementById('body')
-// var button = document.getElementById('button')
-// button.onclick = function(){
-//     if (body.className=='black'){
-//       body.className='white';
-//       button.className='black';
-//     }
-//     else{
-//         body.className='black';
-//         button.className='white';
-//     }
-// }
+var bod = document.getElementById('body')
+var button = document.getElementById('button')
+button.onclick = function(){
+    if (bod.className=='black'){
+      bod.className='white';
+      button.className='black';
+    }
+    else{
+        bod.className='black';
+        button.className='white';
+    }
+}
 
 
 

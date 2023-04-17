@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" class="form-control" name="" id="name"><br>
+    <input type="text" class="form-control" age="" id="age"><br>
+    <input type="text" class="form-control " password="" id="password"><br>
+    <button  style="background-color: rgb(74, 150, 150);" onclick="Signup()">Signup</button> -->
+
+
+    <input type="text" class="form-control" name="" id="name">
+    <input type="text" class="form-control" age="" id="age">
+    <button type="button" onclick="submit()">Submit</button>
+    
+</body>
+<script>
+    // function Signup(){
+    //   var abc =  document.getElementById('name').value;
+    //   var def = document.getElementById('age').value;
+    //   var ghi = document.getElementById('password').value;
+
+    //   localStorage.setItem('namedata',abc);
+    //   localStorage.setItem('agedata', def);
+    //   localStorage.setItem('pass',ghi);
+        
+    // }
+
+
+
+    function submit(){
+        var nameone= document.getElementById('name').value;
+        var ageone = document.getElementById('age').value
+
+        localStorage.setItem('localname',nameone);
+        localStorage.setItem('localage',ageone);
+
+
+    }
+
+</script>
+</html>

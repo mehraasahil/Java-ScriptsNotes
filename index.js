@@ -85,6 +85,18 @@
 //  }
 
 
+
+// for ( a=0;a<10;a++){
+//     if ( a %2== 0){
+//         document.write( a +" "+'this is even')
+//           }
+//       else{
+//         document.write('not')
+//     }
+    
+// }
+
+
  // Nested Loop
 //  for (var a =1; a<=100; a= a +10){
 //     for (var b = a; b<a+10; b++){
@@ -106,7 +118,7 @@
 
 // single line array with loop
 // var ary = [
-//     ['sahil','Mehra',24],   // 0
+//     ['sahil','Mehr a',24],   // 0
 //     ['aashima','gupta',23],  // 1
 // ]
 
@@ -184,6 +196,20 @@
 //     return x * 10 
 // }
 
+
+// var tp = [1,2,3]
+// var mp = tp.map(tm);
+// document.write(mp)
+
+// function tm(p){
+//     return p*10
+// }
+
+
+
+
+
+
 // Map With multiple object
 // var ary = [
 //     {fname:'sahil',lname:'mehra'},
@@ -222,7 +248,7 @@
 // document.getElementById('header').onclick=abc;
 
 // function abc(){
-//   document.getElementById('header').style.background = 'green';
+//   document.getElementById('header').style.background = 'green ';
 
 // }
 // document.getElementByClassName('header').onclick=abc;
@@ -237,3 +263,8 @@
 //    document.getElementById('header').style.background = 'green';
     
 //  }
+
+
+
+
+
